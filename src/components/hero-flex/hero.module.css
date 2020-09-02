@@ -32,3 +32,10 @@
     background-color: #f04437;
     padding: 10px 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .container {  
+        padding: 15vh 60px;
+        margin: 0px;
+    }
+}
