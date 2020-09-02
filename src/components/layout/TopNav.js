@@ -6,7 +6,7 @@ const TopNav = () => {
     <nav>
       <ul className={Styles.container}>
         <li>About us</li>
-        <li>Products</li>
+        <li className={Styles.active}>Products</li>
         <li>Contact</li>
       </ul>
     </nav>

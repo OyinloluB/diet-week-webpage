@@ -5,12 +5,14 @@ import Styles from "./container.module.css";
 
 const Container = () => {
   return (
-    <div className={Styles.container}>
-      <div className={Styles.imageFlex}>
-        <Image />
-      </div>
-      <div className={Styles.heroFlex}>
-        <Hero />
+    <div className={Styles.wrapper}>
+      <div className={Styles.container}>
+        <div className={Styles.imageFlex}>
+          <Image />
+        </div>
+        <div className={Styles.heroFlex}>
+          <Hero />
+        </div>
       </div>
     </div>
   );
